@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'bild';
+  src: url('../fonts/bild/BildVariableV3-VF.ttf');
+}
+
+@font-face {
+  font-family: 'expo';
+  src: url('../fonts/expo-serif/ExpoSerifPro-Regular.otf');
+}
+
+.wrapper {
+  position: relative;
+}
+
+.headline {
+  /* position: absolute; */
+  font-family: bild;
+  /* transform-origin: left top;
+  transform: translateY(-100%); */
+}
+
+.copy {
+  /* position: absolute; */
+  font-family: expo;
+  max-width: 32ch;
+  /* line-height: 120%; */
+}
+
+
+svg#logo {
+  position: absolute;
+}
