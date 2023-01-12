@@ -118,6 +118,10 @@ export const inputs = {
     slider: true, 
     default: 32 
   },
+  copy: { 
+    type: "text", 
+    default: "Esse officia sit non aute consectetur quis velit exercitation officia ut elit esse. ", 
+  },
   copySize: { 
     type: "number", 
     min: 11, 
@@ -125,10 +129,6 @@ export const inputs = {
     step: 1, 
     slider: true, 
     default: 11 
-  },
-  copy: { 
-    type: "text", 
-    default: "Esse officia sit non aute consectetur quis velit exercitation officia ut elit esse. ", 
   },
   logoPosition: { 
     type: "text", 
